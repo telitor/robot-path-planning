@@ -36,17 +36,18 @@
 
 ## 🖼️ Result Preview | 结果展示
 
-### Map 1
-
-![Map1 A* Result](outputs/map1_astar.png)
-
-### Map 2
-
-![Map2 A* Result](outputs/map2_astar.png)
-
-### Random Map
-
-![Random Map A* Result](outputs/random_map_astar.png)
+<table>
+  <tr>
+    <td align="center"><b>Map 1</b></td>
+    <td align="center"><b>Map 2</b></td>
+    <td align="center"><b>Random Map</b></td>
+  </tr>
+  <tr>
+    <td><img src="outputs/map1_astar.png" width="260"></td>
+    <td><img src="outputs/map2_astar.png" width="260"></td>
+    <td><img src="outputs/random_map_astar.png" width="260"></td>
+  </tr>
+</table>
 
 图中：
 
