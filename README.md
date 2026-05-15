@@ -34,7 +34,7 @@
 
 ---
 
-## 🖼️ Result Preview | 结果展示
+## 🎬 Path Search Animation | 路径搜索动图演示
 
 <table>
   <tr>
@@ -43,9 +43,15 @@
     <td align="center"><b>Random Map</b></td>
   </tr>
   <tr>
-    <td><img src="outputs/map1_astar.png" width="260"></td>
-    <td><img src="outputs/map2_astar.png" width="260"></td>
-    <td><img src="outputs/random_map_astar.png" width="260"></td>
+    <td align="center">
+      <img src="outputs/map1_path_demo.gif" width="260" alt="Map 1 A* Path Demo">
+    </td>
+    <td align="center">
+      <img src="outputs/map2_path_demo.gif" width="260" alt="Map 2 A* Path Demo">
+    </td>
+    <td align="center">
+      <img src="outputs/random_map_path_demo.gif" width="260" alt="Random Map A* Path Demo">
+    </td>
   </tr>
 </table>
 
