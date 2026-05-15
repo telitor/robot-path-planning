@@ -36,9 +36,17 @@
 
 ## 🖼️ Result Preview | 结果展示
 
-A* 算法在二维栅格地图上的路径规划结果如下：
+### Map 1
 
-![A* Path Planning Result](outputs/map1_astar.png)
+![Map1 A* Result](outputs/map1_astar.png)
+
+### Map 2
+
+![Map2 A* Result](outputs/map2_astar.png)
+
+### Random Map
+
+![Random Map A* Result](outputs/random_map_astar.png)
 
 图中：
 
