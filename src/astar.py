@@ -62,17 +62,28 @@ def reconstruct_path(came_from, current):
 ###主流程
 
 if __name__ == "__main__":
-    grid = load_map("maps/map1.csv")
+    tasks = [
+        ("maps/map1.csv", "outputs/map1_astar.png"),
+        ("maps/map2.csv", "outputs/map2_astar.png"),
+        ("maps/random_map.csv", "outputs/random_map_astar.png"),
+    ]
 
-    start = (0, 0)
-    goal = (9, 9)
+    for map_path, output_path in tasks:
+        grid = load_map(map_path)
 
-    path = astar(grid, start, goal)
+        rows, cols = grid.shape
+        start = (0, 0)
+        goal = (rows - 1, cols - 1)
 
-    if path is None:
-        print("No path found.")
-    else:
-        draw_path(grid, path, start, goal, "outputs/map1_astar.png")
-        print("Path found.")
-        print("Path length:", len(path))
-        print("Image saved to outputs/map1_astar.png")
+        path = astar(grid, start, goal)
+
+        print("-" * 40)
+        print("Map:", map_path)
+
+        if path is None:
+            print("No path found.")
+        else:
+            draw_path(grid, path, start, goal, output_path)
+            print("Path found.")
+            print("Path length:", len(path))
+            print("Image saved to", output_path)
